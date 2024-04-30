@@ -2,6 +2,8 @@
 
 namespace DevOpsAssignment3.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class DevOpsAssignment3 : Controller
     {
             // GET: api/DevOpsAssignment3/helloworld
